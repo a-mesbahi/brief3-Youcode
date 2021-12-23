@@ -1,0 +1,228 @@
+html{
+    padding: 0%;
+}
+body{
+    padding: 0px;
+    font-family: poppins;
+    
+}
+.menu{
+    color: #FEC35F;
+    font-family: poppins;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    /* background-color: darkseagreen; */
+
+}
+.list-menu{
+    padding: 0%;
+    margin: auto;
+    width: 50%;
+    /* background-color: deeppink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+.list-menu a{
+    text-decoration: none;
+    color:#323E72;
+}
+
+.button{
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color:#eee;
+    background-color: #e6ae4f;
+    width:7%;
+    height: 40px;
+}
+.button:hover{
+    background: rgb(104,76,230);
+    background: linear-gradient(103deg, rgba(104,76,230,1) 6%, rgba(250,201,85,0.9671218829328606) 50%, rgba(104,76,230,1) 100%);
+}
+.button a{
+    color: #eee;
+    text-decoration:none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/moyo.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back{
+    padding: 20px;
+    width: 600px;
+    height: 600px;
+    border:5px solid #3413f065;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 51px -35px rgb(28, 0, 128);
+}
+.back{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.back .title{
+    font-size: 25px;
+    font-weight: 500 ;
+    position: relative;
+}
+.back .title::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: #e6ae4f;
+}
+
+.back .ps{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0 0 0;
+    width: 100%;
+    height: 300px;
+    /* background-color: turquoise; */
+}
+.back .ss{
+    width: 200px;
+    height: 200px;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.user{
+    width: 45%;
+    height: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+}
+.user input{
+    padding: 0 0 0 10px;
+    font-size: 15px;
+    width: 80%;
+    height: 45px;
+    border:2px solid  #593cfbc7;
+    border-radius: 4px;
+}
+.user input:hover{
+    border:2px solid #190397fb;
+    cursor: pointer;
+}
+
+.message {
+    width: 45%;
+    height: 100%;
+    /* background-color: rgb(220, 20, 153); */
+    display: flex;
+    flex-direction: column;
+}
+.message textarea{
+    /* padding: 0 0 0 10px; */
+    max-width: 260px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 15px;
+    width: 90%;
+    height: 250px;
+
+    border:2px solid  #593cfbe0;
+    border-radius: 4px;
+}
+.message input:hover{
+    border:2px solid #593cfbfb;
+    cursor: pointer;
+}
+.ss{
+    width:200px;
+}
+
+.ss button{
+    font-size: 20px;
+    color: white;
+    background-color: #6e56f5fb;
+    width: 200px;
+    height: 70px;
+    border: white;
+    border-radius: 5px;
+}
+.ss button:hover{
+    background: rgb(238,174,202);
+    background: linear-gradient(93deg, rgba(238,174,202,1) 0%, rgba(71,145,233,1) 100%);
+}
+
+
+@media (max-width:360px){
+    body {
+        height: 800px;
+    }
+    h1{
+        font-size: 10px;
+    }
+    .button{
+        width: 100px;
+    }
+    .list-menu{
+        font-size: 12px;
+        display: flex;
+        padding: 0 40px;
+        flex-direction: column;
+        align-items: center;
+        list-style-type: none;
+    
+    }
+    .back{
+        margin-top: 100px;
+        padding: 20px;
+    width: 600px;
+    height: 500px;
+    border:5px solid #3413f065;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 60px -16px rgb(28, 0, 128);
+    }
+    .body{
+        background-image: none;
+    }
+    .user input{
+        padding: 0 0 0 10px;
+        font-size: 12px;
+        width: 80%;
+        height: 45px;
+        border:2px solid  #593cfbc7;
+        border-radius: 4px;
+    }
+}
+
+
+
+.pop{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: cornflowerblue;
+}
