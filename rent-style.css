@@ -75,7 +75,7 @@
 .choix{
   width: 70%;
   height: 800px;
-  background-image: url('/brief3-Youcode/images/backg-pic.jpg');
+  background-image: url('images/backg-pic.jpg');
   background-position: center;
   background-size: cover;
   /* background-color: aquamarine; */

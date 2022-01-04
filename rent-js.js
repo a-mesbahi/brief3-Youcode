@@ -75,33 +75,33 @@ form.addEventListener('submit',e=>{
     // const boite = form.boite.value;
     if(type==1){
         prix0+=10;
-        image.style.backgroundImage="url('/brief3-Youcode/images/moto1.jpg')";
+        image.style.backgroundImage="url('images/moto1.jpg')";
         
     }else if(type==2){
         prix0 += 12;
-        image.style.backgroundImage="url('/brief3-Youcode/images/citadin.png')";
+        image.style.backgroundImage="url('images/citadin.png')";
         y="Manuel";
     }else if(type==3){
         prix0+=14;
-        image.style.backgroundImage="url('/brief3-Youcode/images/car2.png')";
+        image.style.backgroundImage="url('images/car2.png')";
         y="Manuel";
     }else if(type==4){
         prix0+=20;
         prix1+=(prix0*(19/100));
-        image.style.backgroundImage="url('/brief3-Youcode/images/berline.png')";
+        image.style.backgroundImage="url('images/berline.png')";
         y="Automatique";
     }else if(type==5){
         prix0+=16;
-        image.style.backgroundImage="url('/brief3-Youcode/images/utilitaire.jpg')";
+        image.style.backgroundImage="url('images/utilitaire.jpg')";
         y="Manuel";
     }else if(type==6){
         prix0+=900;
-        image.style.backgroundImage="url('/brief3-Youcode/images/engin.png')";
+        image.style.backgroundImage="url('images/engin.png')";
         y="Manuel";
     }else if(type==7){
         prix0+=250;
         prix1+=(prix0*(19/100));
-        image.style.backgroundImage="url('/brief3-Youcode/images/camion.jpg')";
+        image.style.backgroundImage="url('images/camion.jpg')";
         y="Automatique";
     };
     

@@ -185,7 +185,7 @@ body {
 .body2 {
   width: 100%;
   height: 500px;
-  background-image: url("/brief3-Youcode/images/back.png");
+  background-image: url("images/back.png");
   /* background-position:initial ; */
   background-size: contain;
   background-position:center center ;
