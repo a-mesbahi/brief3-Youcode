@@ -1,0 +1,256 @@
+*{
+  font-family: poppins;
+}
+.menu {
+  color: #fec35f;
+  font-family: poppins;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 50px;
+  /* background-color: darkseagreen; */
+}
+.menu{
+  width: 95%;
+}  
+
+.menu h1{
+  letter-spacing: 5px;
+}
+.list-menu {
+  padding: 0%;
+  margin: auto;
+  width: 50%;
+  /* background-color: deeppink; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.list-menu a {
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #323e72;
+}
+
+.button {
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  color: #eee;
+  background-color: #e6ae4f;
+  width: 7%;
+  height: 40px;
+}
+.button:hover {
+  background: rgb(83, 50, 230);
+  background: linear-gradient(
+    103deg,
+    rgba(104, 76, 230, 1) 6%,
+    rgba(250, 201, 85, 0.9671218829328606) 50%,
+    rgba(104, 76, 230, 1) 100%
+  );
+}
+.button a {
+  color: #eee;
+  text-decoration: none;
+}
+.container{
+  width: 100%;
+  /* background-color: lightcoral; */
+}
+
+
+.body{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 30px 10px;
+  width: 95%;
+  /* background-color: #6981e0; */
+}
+.choix{
+  width: 70%;
+  height: 800px;
+  background-image: url('/brief3-Youcode/brief3/images/backg-pic.jpg');
+  background-position: center;
+  background-size: cover;
+  /* background-color: aquamarine; */
+  padding:10px 10px;
+}
+.choix0{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height:500px;
+  /* background-color: salmon; */
+}
+.choix1{
+  /* border:2px solid blueviolet; */
+  border-radius: 10px;
+  width: 25%;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.576);
+}
+.title{
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid rgb(28, 28, 28);
+  /* background-color: seagreen; */
+}
+.choix2{
+  /* border:2px solid blueviolet; */
+  border-radius: 10px;
+  width: 25%;
+  height: 150px;
+  /* background-color: royalblue; */
+  background-color: rgba(255, 255, 255, 0.576);
+}
+.choix3{
+  /* border:2px solid blueviolet; */
+  border-radius: 10px;
+  width: 25%;
+  height: 200px;
+  /* background-color: royalblue; */
+  background-color: rgba(255, 255, 255, 0.576);
+}
+.rest{
+  padding-top: 10px;
+}
+.valid{
+  width: 100%;
+  /* background-color: crimson; */
+  display: flex;
+  justify-content: center;
+  
+}
+.valid input{
+  cursor: pointer;
+  font-size: 18px;
+  border:none ;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(83, 50, 230);
+  width: 200px;
+  height: 70px;
+
+}
+.jour{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+  /* background-color: tomato; */
+  /* border: 2px solid rgb(83, 50, 230) ; */
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.576);
+}
+.jour input{
+  width: 180px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
+input[type="number"]::-webkit-inner-spin-button{
+  appearance: none;   
+}
+
+.card{
+  border:2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 30%;
+  height: 600px;
+  margin-left: 10px;
+  /* background-color: brown; */
+}
+.pic-choice{
+  width: 100%;
+  height: 300px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  /* background-color: violet; */
+}
+.reslt{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reslt span{
+  color:crimson;
+}
+.pic-choice {
+  background-image: url('/brief3-Youcode/brief3/images/pic1.png');
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width:370px) {
+  h1 {
+    font-size: 10px;
+  }
+  .menu {
+    width: 100%;
+    margin:auto;
+  }
+  .list-menu {
+    font-size: 12px;
+    display: flex;
+    padding: 0 40px;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+  }
+  .button {
+    width: 70px;
+  }
+  .body{
+    display: flex;
+    flex-direction: column;
+  }
+  .card{
+    margin-top: 20px;
+    width: 300px;
+  }
+  .choix{
+    width: 340px;
+  } 
+  h2{
+    font-size: 12px;
+  }
+  .choix0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .choix1{
+    margin-top: 30px;
+    width: 80%;
+  }
+  .choix2{
+    margin-top: 30px;
+    width: 80%;
+  }
+  .choix3{
+    margin-top: 30px;
+    width: 80%;
+  }
+  .jour{
+    width: 95%;
+    margin-top: 40px;
+  }
+  .jour label{
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .pic-choice{
+    background-size:100%;
+    background-repeat: no-repeat;
+  }
+}

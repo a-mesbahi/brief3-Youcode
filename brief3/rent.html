@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="rent-style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="head">
+        <div class="menu">
+            <h1>MSB || LOC</h1>
+            <ul class="list-menu">
+                <li><a href="index.html"> HOME </a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="rent.html">RENT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <button class="button"><a href="#"> Log in </a></button>
+        </div>
+        
+        <div class="body">
+            <div class="choix">
+                <form class="form">
+                    <div class="choix0">
+                        <div class="choix1">
+                            <div class="title">
+                                <h2>transport-type</h2>
+                            </div>
+                            <div class="rest">
+                                <div class="option">
+                                    <input type="radio" name="type" value="1" class="no-auto no-man"required>
+                                    <label for="">Moto</label>
+                                </div>
+                                <div class="option">
+                                    <input type="radio" name="type" value="2" class="no-man"required>
+                                    <label for="">Citadine</label>
+                                </div>
+                                <div class="option">
+                                    <input type="radio" name="type" value="3" class="no-man"required>
+                                    <label for="">Compacte</label>
+                                </div>
+                                <div class="option">
+                                    <input type="radio" name="type" value="4" class="no-auto"required>
+                                    <label for="">Berline</label>
+                                </div>
+                                <div class="option">
+                                    <input type="radio" name="type" value="5" class="no-man"required>
+                                    <label for="">Utilitaire</label>
+                                </div>
+                                <div class="option">
+                                    <input type="radio" name="type" value="6" class="no-man" required>
+                                    <label for="">Engin de Chantier</label>
+                                </div>
+                                <div class="option">
+                                    <input type="radio" name="type" value="7" class="no-auto"required>
+                                    <label for="">Camion</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="choix2">
+                            <div class="title">
+                                <h2>Boite vitesse-type</h2>
+                            </div>
+                            <div class="rest">
+                                <div class="option">
+                                    <input type="radio" name="boite" value="1" >
+                                    <label for="">Manuelle</label>
+                                </div>
+                                <div class="option">
+                                    <input type="radio" name="boite" value="2" >
+                                    <label for="">Automatique</label>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="choix3">
+                            <div class="title">
+                                <h2>Motorisation-type</h2>
+                            </div>
+                            <div class="rest">
+                                <div class="option">
+                                    <input type="radio" name="motor" value="1" required class="moto citadine" disabled>
+                                    <label for="">Electrique</label>
+                                </div>
+                                <div class="option">
+                                    <input type="radio" name="motor" value="2" class="citadine compacte berline"disabled>
+                                    <label for="">Hybride</label>
+                                </div>
+                                <div class="option">
+                                    <input type="radio" name="motor" value="3" class="moto citadine compacte berline engin" disabled>
+                                    <label for="">Essence</label>
+                                </div>
+                                <div class="option">
+                                    <input type="radio" name="motor" value="4" class="citadine compacte berline engin utilitaire camion"  disabled>
+                                    <label for="">Diesel</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jour">
+                        <label for="">Le nombre du jour : </label>
+                        <input type="number" name="jour" min="1" max="100" required placeholder="Entrer le nombr des jours ">
+                    </div>
+                    <div class="valid">
+                        <input type="submit" value="validate your choice">
+                    </div>
+                </form>
+            </div>
+                
+            <div class="card">
+                <div class="pic-choice">
+                </div>
+                <div class="reslt">
+                    <h2>Prix Total :&nbsp; &nbsp;<span id="prix">..</span>&nbsp;€</h2><br>
+                    <h2 >( <span id="boite-titre"></span> )</h2>
+                </div>
+
+            </div>
+        </div>
+
+<script src="rent-js.js"></script>
+</body>
+</html>

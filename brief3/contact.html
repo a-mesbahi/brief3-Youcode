@@ -12,15 +12,12 @@
     </head>
 <body>
     <div class="continer">
-        <div class="pup">
-                
-        </div>
         <div class="menu">
             <h1>MSB || LOC</h1>
             <ul class="list-menu">
                 <li><a href="index.html"> HOME </a></li>
-                <li><a href="#">GALLERY</a></li>
-                <li><a href="#">RENT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="rent.html">RENT</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
             <button class="button"><a href="#"> Log in </a></button>
@@ -30,12 +27,13 @@
                 <div class="title">Contact Us</div>
                 <div class="ps">
                     <div class="user">
-                        <label for="user"><i class="far fa-user"></i>Full name</label>
-                        <input type="text" placeholder="Enter your name" required>
-                        <label for="user">Email</label>
-                        <input type="text" placeholder="Enter your mail" required>
-                        <label for="user">Phone</label>
-                        <input type="text" placeholder="Enter your mail" required>
+                        <form action="">
+                            <label for="user name">Full name</label>
+                            <input type="text" placeholder="Enter your name" required id="full-name">
+                            <label for="user">Email</label>
+                            <input type="email" placeholder="Enter your mail" required id="mail">
+                            <label for="user">Phone</label>
+                            <input type="number" placeholder="Enter your mail" required id="number">
                     </div>
                     <div class="message">
                         <label for="user">Message</label>
@@ -44,8 +42,9 @@
                     
                 </div>
                 <div class="ss">
-                    <button>send</button>
+                <input type="submit" value="send" class='ss-button'>
                 </div>
+            </form>
                 
                 </div>
 
@@ -54,5 +53,17 @@
             
         </div>
     </div>
+    <div class="popup-wrapper ">
+        <div class="popup">
+            <div class="popup-close">x</div>
+            <div class="popup-content">
+                <h2>YOUR INFOS</h2>
+                <p class="name"><span class="deco"> YOUR FULL NAME : </span></p>
+                <p class="mail"><span class="deco">YOUR MAIL: </span></p>
+                <p class="number"><span class="deco">YOUR Number: </span></p>
+            </div>
+        </div>
+    </div>
+    <script src="poppup.js"></script>
 </body>
 </html>
