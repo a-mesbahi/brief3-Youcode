@@ -75,7 +75,7 @@
 .choix{
   width: 70%;
   height: 800px;
-  background-image: url('/brief3-Youcode/brief3/images/backg-pic.jpg');
+  background-image: url('/brief3-Youcode/images/backg-pic.jpg');
   background-position: center;
   background-size: cover;
   /* background-color: aquamarine; */
@@ -187,7 +187,7 @@ input[type="number"]::-webkit-inner-spin-button{
   color:crimson;
 }
 .pic-choice {
-  background-image: url('/brief3-Youcode/brief3/images/pic1.png');
+  background-image: url('/brief3-Youcode/images/pic1.png');
   background-size: cover;
   background-position: center;
 }
